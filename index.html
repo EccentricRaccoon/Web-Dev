@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hello.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3c099f5c78.js" crossorigin="anonymous"></script>
+    <script>
+        let pop= document.getElementsByClassName("productbuy");
+      function hello(a){
+        for (let index = 0; index < pop.length; index++) {
+            pop[index].style.display="none";
+            
+        }
+        pop[a].style.display="flex";
+        
+           
+           
+      }
+
+     
+      function remove(){
+        for (let index = 0; index < pop.length; index++) {
+            pop[index].style.display="none";
+            
+        }
+      }
+    </script>
+</head>
+<body>
+    <div class="header_links">
+        <div class="Company_Logo">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/logo1@2x-free-img.png" alt="" width = "140px"
+            height = "47px">
+        </div>
+        <ul class="BarList">
+            <li>
+                <a href="">EVERYTHING</a>
+            </li>
+            <li>
+                <a href="">WOMEN</a>
+            </li>
+            <li>
+                <a href="">MEN</a>
+            </li>
+            <li>
+                <a href="">ACCESSORIES</a>
+            </li>           
+        </ul>
+    </div>
+    <div class="header_image">
+        <div class="header_text"> <span class="htext1"> Raining Offers For<br>Hot Summer!</span> <br>
+            <span class="htext2">25% Off On All Products</span>
+            <div class="hbuttoncontainer">
+                <button class="header_button1">SHOP NOW</button>
+                <button class="header_button2">FIND MORE</button>
+            </div>
+            </div>     
+    </div>
+    <div class="logonprodcard">
+    <div class="logos">
+        <img class="logoimage" src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/client-logo-1.png" alt="">
+        <img class="logoimage"  src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/client-logo-2.png" alt="">
+        <img class="logoimage" src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/client-logo-3.png" alt="">
+        <img class="logoimage" src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/client-logo-4.png" alt="">
+        <img class="logoimage" src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/client-logo-2.png" alt="">
+    </div>
+    <div class="product_cards">
+        <div class="prodcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/women-fashion-free-img.jpg" alt="" width="373.333px" height="480px">
+        </div>
+        <div class="prodcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/men-fashion-free-img.jpg" alt="" width="373.333px" height="480px">
+
+        </div>
+        <div class="prodcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/footwear-free-img.jpg" alt="" width="373.333px" height="480px">
+        </div>
+    </div>
+    </div>
+    <div class="featuredboss">
+    <div>
+    <div class="featprod">
+            <div class="featprodtext">
+                Featured Products
+            </div>
+            
+
+            
+            <div class="featprodlineflex"><div class="featprodline"></div></div>
+            <div class="prodgrid">
+                <div class="prodgriditem" onclick="hello(0)" >
+                    <div class="sale"> Sale! </div>
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe3-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> DNK Yellow Shoes</span> <br>
+                        <span class="prodgridgen">Men</span> <br>
+                        <span class="prodgridprice"><span style="text-decoration: line-through; opacity: 0.6;">$150.00</span> $120.00</span> 
+                    </div> 
+                </div>
+                <div class="prodgriditem" onclick="hello(1)">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe1-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> DNK Blue Shoes</span> <br>
+                        <span class="prodgridgen">Men</span> <br>
+                        <span class="prodgridprice">$200.00-$240.00</span> 
+                    </div>
+                </div>
+                <div class="prodgriditem" onclick="hello(2)">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-m-jeans1-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Dark Brown Jeans</span> <br>
+                        <span class="prodgridgen">Men</span> <br>
+                        <span class="prodgridprice">$150.00</span> 
+                    </div> 
+                </div>
+                <div class="prodgriditem" onclick="hello(3)">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans2-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Blue Denim Jeans</span> <br>
+                        <span class="prodgridgen">Women</span> <br>
+                        <span class="prodgridprice">$150.00</span> 
+                    </div>
+                </div>
+                <div class="prodgriditem" onclick="hello(4)">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans4-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Basic Gray Jeans</span> <br>
+                        <span class="prodgridgen">Women</span> <br>
+                        <span class="prodgridprice">$150.00</span> 
+                    </div>
+                </div>                                            
+            </div>
+
+            <div class="productbuy">
+                <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe3-400x400.jpg" alt="" height="248px" width="248px">
+                <div class="productbuy_text">
+                    <span class="productbuy_heading">DNK Yellow Shoes</span>
+                    <span class="productbuy_body">
+        
+                        AVALILABILITY
+                        : IN STOCK
+                        &nbsp;  &nbsp;  &nbsp;
+                        PRODUCT TYPE
+                        : AMAZON </span>
+                    <span class="productbuy_price">$150.00</span>
+                    <span class="productbuy_body-2">
+                        Ipsum kevin leberkas pork belly, in occaecat laborum nisi lorem aliquip culpa shank fatback. Andouille eu salami, mollit short loin filet mignon culpa. Fatback rump kielbasa, beef drumstick... 
+                    </span>
+                    <div class="productbuy_buttoncont"><button class="productbuy_button">CONNECT TO CRYPTO WALLET</button>
+                        <button class="productbuy_button">BUY NOW</button></div>
+                    
+                </div>
+                
+                <h2 onclick="remove()"><i class="fa-solid fa-xmark"></i></h2>
+                </div>
+
+                <div class="productbuy">
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe1-400x400.jpg" alt="" height="248px" width="248px">
+                    <div class="productbuy_text">
+                        <span class="productbuy_heading">DNK Blue Shoes</span>
+                        <span class="productbuy_body">
+            
+                            AVALILABILITY
+                            : IN STOCK
+                            &nbsp;  &nbsp;  &nbsp;
+                            PRODUCT TYPE
+                            : AMAZON </span>
+                        <span class="productbuy_price">$200.00</span>
+                        <span class="productbuy_body-2">
+                            Ipsum kevin leberkas pork belly, in occaecat laborum nisi lorem aliquip culpa shank fatback. Andouille eu salami, mollit short loin filet mignon culpa. Fatback rump kielbasa, beef drumstick... 
+                        </span>
+                        <div class="productbuy_buttoncont"><button class="productbuy_button">CONNECT TO CRYPTO WALLET</button>
+                            <button class="productbuy_button">BUY NOW</button></div>
+                    </div>
+                    
+                    <h2 onclick="remove()"><i class="fa-solid fa-xmark"></i></h2>
+                    </div>
+
+                    <div class="productbuy">
+                        <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-m-jeans1-400x400.jpg" alt="" height="248px" width="248px">
+                        <div class="productbuy_text">
+                            <span class="productbuy_heading">Dark Brown Jeans</span>
+                            <span class="productbuy_body">
+                
+                                AVALILABILITY
+                                : IN STOCK
+                                &nbsp;  &nbsp;  &nbsp;
+                                PRODUCT TYPE
+                                : AMAZON </span>
+                            <span class="productbuy_price">$150.00</span>
+                            <span class="productbuy_body-2">
+                                Ipsum kevin leberkas pork belly, in occaecat laborum nisi lorem aliquip culpa shank fatback. Andouille eu salami, mollit short loin filet mignon culpa. Fatback rump kielbasa, beef drumstick... 
+                            </span>
+                            <div class="productbuy_buttoncont"><button class="productbuy_button">CONNECT TO CRYPTO WALLET</button>
+                                <button class="productbuy_button">BUY NOW</button></div>
+                        </div>
+                        
+                        <h2 onclick="remove()"><i class="fa-solid fa-xmark"></i></h2>
+                        </div>
+
+                        <div class="productbuy">
+                            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans2-400x400.jpg" alt="" height="248px" width="248px">
+                            <div class="productbuy_text">
+                                <span class="productbuy_heading">Blue Denim Jeans</span>
+                                <span class="productbuy_body">
+                    
+                                    AVALILABILITY
+                                    : IN STOCK
+                                    &nbsp;  &nbsp;  &nbsp;
+                                    PRODUCT TYPE
+                                    : AMAZON </span>
+                                <span class="productbuy_price">$150.00</span>
+                                <span class="productbuy_body-2">
+                                    Ipsum kevin leberkas pork belly, in occaecat laborum nisi lorem aliquip culpa shank fatback. Andouille eu salami, mollit short loin filet mignon culpa. Fatback rump kielbasa, beef drumstick... 
+                                </span>
+                                <div class="productbuy_buttoncont"><button class="productbuy_button">CONNECT TO CRYPTO WALLET</button>
+                                    <button class="productbuy_button">BUY NOW</button></div>
+                            </div>
+                            
+                            <h2 onclick="remove()"><i class="fa-solid fa-xmark"></i></h2>
+                            </div>
+
+                            <div class="productbuy">
+                                <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans4-400x400.jpg" alt="" height="248px" width="248px">
+                                <div class="productbuy_text">
+                                    <span class="productbuy_heading">Basic Gray Jeans</span>
+                                    <span class="productbuy_body">
+                        
+                                        AVALILABILITY
+                                        : IN STOCK
+                                        &nbsp;  &nbsp;  &nbsp;
+                                        PRODUCT TYPE
+                                        : AMAZON </span>
+                                    <span class="productbuy_price">$150.00</span>
+                                    <span class="productbuy_body-2">
+                                        Ipsum kevin leberkas pork belly, in occaecat laborum nisi lorem aliquip culpa shank fatback. Andouille eu salami, mollit short loin filet mignon culpa. Fatback rump kielbasa, beef drumstick... 
+                                    </span>
+                                    <div class="productbuy_buttoncont"><button class="productbuy_button">CONNECT TO CRYPTO WALLET</button>
+                                        <button class="productbuy_button">BUY NOW</button></div>
+                                </div>
+                                
+                                <h2 onclick="remove()"><i class="fa-solid fa-xmark"></i></h2>
+                                </div>
+
+
+            <div class="prodgrid">
+                <div class="prodgriditem">
+                    <div class="sale"> Sale! </div>
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-w-jeans1-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Blue Denim Shorts</span> <br>
+                        <span class="prodgridgen">Women</span> <br>
+                        <span class="prodgridprice"><span style="text-decoration: line-through; opacity: 0.6;">$150.00</span> $130.00</span> 
+                    </div> 
+                </div>
+                <div class="prodgriditem">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-accessory2-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Anchor Bracelet</span> <br>
+                        <span class="prodgridgen">Accessories</span> <br>
+                        <span class="prodgridprice">$150.00-$180.00</span> 
+                    </div>
+                </div>
+                <div class="prodgriditem">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-accessory1-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Boho Bagle Bracelet</span> <br>
+                        <span class="prodgridgen">Accessories</span> <br>
+                        <span class="prodgridprice">$150.00-$170.00</span> 
+                    </div> 
+                </div>
+                <div class="prodgriditem">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-bag1-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Light Brown Purse</span> <br>
+                        <span class="prodgridgen">Accessories</span> <br>
+                        <span class="prodgridprice">$150.00</span> 
+                    </div>
+                </div>
+                <div class="prodgriditem">
+                    <div class="cartbtn"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2017/12/product-bag3-400x400.jpg" alt="" height="248px" width="248px">
+                    <div>
+                        <span class="prodgridname"> Bright Red Bag</span> <br>
+                        <span class="prodgridgen">Accessories</span> <br>
+                        <span class="prodgridprice">$150.00</span> 
+                    </div>
+                </div>                                            
+            </div>
+
+    </div>
+    </div>
+    
+    <div class="bigimagecont">
+        <div class="bigimagetext">
+            <span style="font-size: 20px; margin-bottom: 4vh;">Limited Time Offer</span><br><br>
+           <span style="font-size: 42px; margin-bottom: 6.5vh;">Special Edition</span>  <br>
+           <span style="font-size: 16px; margin-bottom: 5.5vh;">Special edition Fahrenheit Jacket available at lowest price ever!</span> <br>
+           <span style="font-size: 20px; margin-bottom: 10vh;">Buy This Jacket At 20% Discount, Use Code OFF20</span> 
+            <button class="bigimagebutton">SHOP NOW</button>
+        </div>
+        <div class="bigimage"></div>
+    </div>
+    <div class="advantages">
+        <div class="advcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/globe-free-img.png" alt="">
+            <div class="adv-card-heading">Worldwide shipping</div>
+            <div class="adv-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt</div>
+        </div>
+        <div class="advcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/quality-free-img.png" alt="">
+            
+            <div class="adv-card-heading">Best Quality</div>
+            <div class="adv-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt</div>
+        </div>
+        <div class="advcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/tag-free-img.png" alt="">
+            
+            <div class="adv-card-heading">Worldwide shipping</div>
+            <div class="adv-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt</div>
+        </div>
+        <div class="advcard">
+            <img src="https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2018/12/lock-free-img.png" alt="">
+            
+            <div class="adv-card-heading">Secure Payments</div>
+            <div class="adv-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt</div>
+        </div>
+    </div>
+    </div>
+    <footer class="landingfooter">
+        <div class="sale-banner">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</div>
+    </footer>
+
+    
+</body>
+</html>

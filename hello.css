@@ -1,0 +1,388 @@
+.header_image{
+    background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+    
+}
+.header_text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+    margin-left: 10vw;
+}
+.htext1{
+    font-family: "Lato",sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    text-decoration: white;
+    color: white;
+    margin-bottom: 3vh;
+
+}
+.htext2{
+    font-family: "Lato",sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: white;
+    margin-top: 1.5vh;
+    margin-bottom: 6vh;
+}
+.hbuttoncontainer{
+    display: flex;
+    flex-direction: row;
+
+}
+.header_button1{
+    padding-top: 1.8vh;
+    padding-right: 1.8vw;
+    padding-bottom: 1.8vh;
+    padding-left: 1.8vw;
+    color: black;
+    background-color: white;
+    margin-right: 2vw;
+    font-family: "Lato",sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 0px;
+
+}
+.header_button1:hover{
+    background-color: black;
+    color: white;
+}
+.header_button2{
+    padding-top: 1.8vh;
+    padding-right: 1.8vw;
+    padding-bottom: 1.8vh;
+    padding-left: 1.8vw;
+    background-color: transparent;    
+    color: white;
+    font-family: "Lato",sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+
+
+}
+.header_button2:hover{
+    background-color: white;
+    color: black;
+}
+body{
+    margin: 0;
+   
+}
+@keyframes anim-1{
+    from{
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.logoimage{
+    margin: 50px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header_links{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;  
+    margin-left: 35px;  
+    
+}
+.BarList{
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+    
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.BarList li a{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+.product_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.prodcard{
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 10px;
+}
+.featuredboss{
+    background-color: rgb(245,247,249);
+    padding-top: 100px;
+}
+.featprodtext{
+    line-height: 29.7167px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variant: normal;
+    text-indent: 0px;
+    text-transform: none;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+.prodgrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.prodgriditem{
+    margin: 10px;
+    line-height: 29.7167px;
+}
+.prodgridname{
+    font-family: "Lato", sans-serif;
+    font-size:  16px;
+    font-weight:  700;
+    font-kerning: auto;
+}
+.prodgridgen{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: .85em;
+    margin-bottom: 0.5em;
+    opacity: 0.6;
+}
+.prodgridprice{
+    font-family: "Lato", sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+
+}
+.featprodline{
+    border: 2px solid rgb(0,132,214);
+    width: 100px;
+}
+.featprodlineflex{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.sale{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-bottom: 3.568px;
+    padding-top: 3.568px;
+    padding-left: 11.136px;
+    padding-right: 11.136px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 13.92px;
+    margin: 15px;
+}
+.cartbtn{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    font-weight: 500;
+    font-size: 13.92px;
+    margin: 15px;
+    border-radius: 50%;
+    padding-bottom: 3.568px;
+    padding-top: 3.568px;
+    padding-left: 11.136px;
+    padding-right: 11.136px;
+    margin-left: 190px ;
+    display: none;    
+}
+.prodgriditem:hover{
+    .cartbtn{display: block;}
+}
+.bigimage{
+    background-image: url("https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-03.jpg");
+    height: 70vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bigimagecont{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+.bigimagetext{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: absolute;
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    color:white;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    line-height: 1.2rem;
+}
+.bigimagebutton{
+    font-family: "Lato",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    height: 47px;
+    width: 142px;
+    background-color: white;
+    color: black;
+    border-width: 0px;
+}
+.bigimagebutton:hover{
+    background-color: black;
+    color: white;
+}
+.advantages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+.advcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 350px;
+}
+.advcard img{
+   height: 75px;
+   width: 75px;
+}
+.adv-card-heading{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.adv-card-text{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.sale-banner{
+    font-family: "Lato", sans-serif;
+    align-content: center;
+    margin: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 10vw;
+}
+.logonprodcard{
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.productbuy{ 
+    z-index: 1;
+    display: none;
+    width: 60vw;
+    height: 60vh;
+    background-color: inherit;
+    margin-left: 20rem;
+}
+
+.productbuy img{
+    height:50vh;
+    width:20vw;
+    margin-right: 2rem;
+}
+
+
+.productbuy_heading{
+    font-size: 2rem;
+    color: #464646;
+}
+.productbuy_price{
+    color:black;
+    font-size: 2rem;
+}
+.productbuy_text{
+    font-family: 'Lato',sans-serif;
+    color: #7E7E7E;
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+}
+.productbuy_body{
+    color: darkslategrey;
+}
+.productbuy_body-2{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+.productbuy_button{
+    width:17vw;
+    height:6vh;
+    margin-top:.5rem;
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 2rem;
+    color:black
+}
+.productbuy_button:hover{
+    background-color:#01020D;
+    color: white;
+}
+.productbuy_buttoncont{
+    margin-top: 3rem;
+}
